@@ -8,7 +8,7 @@ def loop():
         if BUTTON.is_pressed: # if button is pressed
             BUZZER.on() # turn on buzzer
             print ('buzzer turned on >>>')
-        else: # if button is relessed
+        else: # if button is released
             BUZZER.off() # turn off buzzer
             print ('buzzer turned off <<<')
 
