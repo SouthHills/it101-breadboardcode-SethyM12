@@ -5,7 +5,7 @@ from gpiozero import Button
 from signal import pause
 # active_high must be true because it is a common anode RGBLed
 LED = RGBLED(red=17, green=18, blue=27, active_high=True)
-BUTTON = Button(16)
+BUTTON = Button(12)
 checker = True
 
 def toggle_checker():
