@@ -5,7 +5,7 @@
 from gpiozero import LEDBarGraph
 from time import sleep
 
-LED_PINS : list[int] = [17, 18, 27, 22, 23, 24, 25, 2, 3, 15]
+LED_PINS : list[int] = [21, 20, 16, 12, 25, 24, 23, 26, 19, 6]
 LEDS = LEDBarGraph(*LED_PINS, active_high=False)
 
 def setup():
