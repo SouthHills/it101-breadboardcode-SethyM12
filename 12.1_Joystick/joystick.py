@@ -34,7 +34,7 @@ def loop():
         val_Z = BUTTON.is_active # read digital value of axis Z
         val_Y = ADC.analogRead(0)           # read analog value of axis X and Y
         val_X = ADC.analogRead(1)
-        print (f'Direction: {get_direction(val_X, val_Y)} \tvalue_X: {val_X} \tvlue_Y: {val_Y}\tvalue_Z: {val_Z}')
+        print (f'Direction: {get_direction(val_X, val_Y)} \tvalue_X: {val_X} \tvalue_Y: {val_Y}\tvalue_Z: {val_Z}')
         time.sleep(0.01)
         
 def get_direction(x, y):
